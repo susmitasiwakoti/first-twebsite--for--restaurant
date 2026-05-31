@@ -382,4 +382,12 @@ header nav ul li {
         width: 100%;
         height: 280px;
     }
+
+    /* 3. Give your button space and prevent it from clipping */
+    header .btn, .book-table-btn, header button {
+        display: inline-block !important;
+        margin-top: 5px !important;
+        width: auto !important;
+        max-width: 200px !important;
+    }
 }
