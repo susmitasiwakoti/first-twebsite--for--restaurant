@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUSMITA RESTRO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><h1>SAVORY RESTRO</h1></div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#reserve" class="btn-nav">Book Table</a></li>
+                <li><a href="#menu" id="cart-nav"cart(0)></a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Crafted to Perfection</h1>
+            <p>Experience culinary excellence with locally sourced ingredients</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn primary">Explore menu</a>
+                <a href="#reserve" class="btn secondary">Reservations</a>
+            </div>
+        </div>
+    </section>
+    <section id="features" class="features">
+        <div class="feature-card">
+            <span class="icon">🌱</span>
+            <h3>100% Organic</h3>
+            <p>We partner with local farms for the freshest ingredients.</p>
+        </div>
+        
+        <div class="feature-card">
+            <span class="icon">👨‍🍳</span>
+            <h3>Master Chefs</h3>
+            <p>Our kitchen is led by award-winning culinary experts.</p>
+        </div>
+          <div class="feature-card">
+            <span class="icon">🍷</span>
+            <h3>Cozy Ambiance</h3>
+            <p>The perfect blend of elegant design and warm hospitality.</p>
+        </div>
+    </section>
+    <section id="menu" class="menu-section">
+    <h2 class="section-title">Our Signature Dishes</h2>
+    
+    <div class="menu-grid">
+        <div class="menu-item">
+            <button class="btn-add-cart" data-item="Margherita">Add to Order</button>
+            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=500&q=80" alt="Margherita Pizza">
+            <div class="item-info">
+                <div class="item-header">
+                    <h4>Classic Margherita</h4>
+                    <span class="price">$14.00</span>
+                </div>
+                <p>Fresh mozzarella, san marzano tomatoes, fresh basil, and a drizzle of olive oil.</p>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <button class="btn-add-cart" data-item="Glazed Salmon Bowl">Add to Order</button>
+            <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=500&q=80" alt="Salmon Salad">
+            <div class="item-info">
+                <div class="item-header">
+                    <h4>Glazed Salmon Bowl</h4>
+                    <span class="price">$22.00</span>
+                </div>
+                <p>Pan-seared Atlantic salmon, wild quinoa, avocado, organic greens, sesame ginger dressing.</p>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <button class="btn-add-cart" data-item="Molten Lava Cake">Add to Order</button>
+            <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=500&q=80" alt="Chocolate Lava Cake">
+            <div class="item-info">
+                <div class="item-header">
+                    <h4>Molten Lava Cake</h4>
+                    <span class="price">$9.50</span>
+                </div>
+                <p>Rich decadent chocolate cake with a warm liquid center, served with vanilla bean gelato.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="reserve" class="reserve-section">
+        <div class="reserve-container">
+            <h2>Book A Table</h2>
+            <p>Please fill out the form below to secure your dining experience.</p>
+            
+            <form class="reserve-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Full Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email Address" required>
+                </div>
+                <div class="form-row">
+                    <input type="date" required>
+                    <input type="time" required>
+                </div>
+                <div class="form-group">
+                    <select required>
+                        <option value="" disabled selected>Number of Guests</option>
+                        <option value="1">1 Person</option>
+                        <option value="2">2 People</option>
+                        <option value="3">3 People</option>
+                        <option value="4">4+ People</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn-submit">Confirm Reservation</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+    <div class="about-container">
+        
+        <div class="about-content">
+            <span class="sub-title">Our Story</span>
+            <h2>A Passion for Culinary Excellence Since 2018</h2>
+            <p>Founded by a team of food enthusiasts, Savory Restro began as a cozy neighborhood bistro with a simple mission: to serve honest, flavorful dishes crafted with love and local ingredients.</p>
+            <p>Every plate we present represents our commitment to culinary artistry, blending traditional cooking techniques with contemporary flavors to deliver an unforgettable dining experience.</p>
+        </div>
+
+        <div class="about-image">
+            <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=800&q=80" alt="Our Kitchen Atmosphere">
+        </div>
+
+    </div>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+<footer>
+        <p>&copy; 2026 Susmita Siwakoti. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
