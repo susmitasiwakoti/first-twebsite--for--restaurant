@@ -354,20 +354,20 @@ header nav ul li {
 
 /* Responsive adjustment for laptops and small mobile screens */
 @media (max-width: 768px) {
-    header,.navbar,nav{
+    header, .navbar,nav{
         display:flex;
         flex-direction: column;
-        align items: center;
+        align-items: center;
         text-align: center;
         gap: 15px;
         width:100%;
     }
-    .log0,h1{
-        font size:1.8rem;
+    .log0, h1{
+        font-size:1.8rem;
     }
-    .hero-content,home-content{
+    .hero-content, home-content{
         padding:20px;
-        text align: center;
+        text-align: center;
     }
     .hero-content h1{
         font-size: 2rem;
